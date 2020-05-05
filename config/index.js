@@ -92,6 +92,8 @@ exports.MARKET = {
     'LTC'
   ],
   currencies: {
+
+    INFT: { symbol: '∞', fractionDigits: 6 },
     BTC: { symbol: 'Ƀ', fractionDigits: 8 },
     ETH: { symbol: 'Ξ', fractionDigits: 8 },
     LTC: { symbol: 'Ł', fractionDigits: 8 },
@@ -158,26 +160,26 @@ exports.THEMES = [
 exports.V1 = {
   fees: {
     GROUP_1: [
-      0.1 * 1e8, // Transfer
-      5 * 1e8, // Second signautre
-      25 * 1e8, // Delegate registration
-      1 * 1e8, // Vote
-      5 * 1e8, // Multisignature
-      5 * 1e8, // IPFS
-      1 * 1e8, // Multi-payment
-      25 * 1e8, // Delegate resignation
-      1 * 1e8, // HTLC Lock
-      0 * 1e8, // HTLC Claim
-      0 * 1e8 // HTLC Refund
+      0.1 * 1e6, // Transfer
+      5 * 1e6, // Second signautre
+      25 * 1e6, // Delegate registration
+      1 * 1e6, // Vote
+      5 * 1e6, // Multisignature
+      5 * 1e6, // IPFS
+      1 * 1e6, // Multi-payment
+      25 * 1e6, // Delegate resignation
+      1 * 1e6, // HTLC Lock
+      0 * 1e6, // HTLC Claim
+      0 * 1e6 // HTLC Refund
     ],
 
     GROUP_2: [
-      50 * 1e8, // Business Registration
-      50 * 1e8, // Business Resignation
-      50 * 1e8, // Business Update
-      50 * 1e8, // Bridgechain Registration
-      50 * 1e8, // Bridgechain Resignation
-      50 * 1e8 // Bridgechain Update
+      50 * 1e6, // Business Registration
+      50 * 1e6, // Business Resignation
+      50 * 1e6, // Business Update
+      50 * 1e6, // Bridgechain Registration
+      50 * 1e6, // Bridgechain Resignation
+      50 * 1e6 // Bridgechain Update
     ]
   }
 }
