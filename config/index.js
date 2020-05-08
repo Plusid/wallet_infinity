@@ -18,7 +18,7 @@ exports.PEERS = {
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+  rssUrl: 'https://blog.inifnitysoftware.io/feed'
 }
 
 exports.VENDOR_FIELD = {
@@ -160,26 +160,26 @@ exports.THEMES = [
 exports.V1 = {
   fees: {
     GROUP_1: [
-      0.1 * 1e8, // Transfer
-      5 * 1e8, // Second signautre
-      25 * 1e8, // Delegate registration
-      1 * 1e8, // Vote
-      5 * 1e8, // Multisignature
-      5 * 1e8, // IPFS
-      1 * 1e8, // Multi-payment
-      25 * 1e8, // Delegate resignation
-      1 * 1e8, // HTLC Lock
-      0 * 1e8, // HTLC Claim
-      0 * 1e8 // HTLC Refund
+      0.1 * 1e5, // Transfer
+      5 * 1e5, // Second signautre
+      25 * 1e5, // Delegate registration
+      1 * 1e5, // Vote
+      5 * 1e5, // Multisignature
+      5 * 1e5, // IPFS
+      1 * 1e5, // Multi-payment
+      25 * 1e5, // Delegate resignation
+      1 * 1e5, // HTLC Lock
+      0 * 1e5, // HTLC Claim
+      0 * 1e5 // HTLC Refund
     ],
 
     GROUP_2: [
-      50 * 1e8, // Business Registration
-      50 * 1e8, // Business Resignation
-      50 * 1e8, // Business Update
-      50 * 1e8, // Bridgechain Registration
-      50 * 1e8, // Bridgechain Resignation
-      50 * 1e8 // Bridgechain Update
+      50 * 1e5, // Business Registration
+      50 * 1e5, // Business Resignation
+      50 * 1e5, // Business Update
+      50 * 1e5, // Bridgechain Registration
+      50 * 1e5, // Bridgechain Resignation
+      50 * 1e5 // Bridgechain Update
     ]
   }
 }
