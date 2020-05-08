@@ -3,7 +3,7 @@ const os = require('os')
 const path = require('path')
 
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://www.infinitysoftawre.io',
   transactionExpiryMinutes: 45
 }
 
@@ -138,7 +138,7 @@ exports.PLUGINS = {
   officialScope: 'arkecosystem',
   officialAuthor: 'ARK Ecosystem',
   path: path.resolve(os.homedir(), '.ark-desktop/plugins'),
-  reportUrl: 'https://ark.io/contact',
+  reportUrl: 'https://infinitysoftware.io/contact',
   updateInterval: {
     value: 1,
     unit: 'day'
