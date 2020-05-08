@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "ark-desktop-wallet",
+  "name": "wallet_infinity",
   "version": "2.8.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkEcosystem/desktop-wallet.git"
+    "url": "git+https://github.com/Plusid/wallet_infinity.git"
   },
   "author": "ArkEcosystem <info@ark.io>",
   "contributors": [
@@ -16,9 +16,9 @@
   "description": "Ark Ecosystem Desktop Wallet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/desktop-wallet/issues"
+    "url": "https://github.com/Plusid/wallet_infinity/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/desktop-wallet#readme",
+  "homepage": "https://github.com/Plusid/wallet_infinity#readme",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
